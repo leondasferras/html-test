@@ -1,0 +1,20 @@
+.button {
+  padding: 9px 35px 11px;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+}
+
+
+.buttonColorLightblue {
+  background: var(--light-blue);
+}
+
+.buttonColorDarkblue {
+  background: var(--dark-blue);
+}
+
+.btnColorBlack {
+  background-color: var(--black);
+  border: 2px solid var(--light-blue);
+}

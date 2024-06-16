@@ -1,0 +1,9 @@
+@import "normalize.css/normalize.css";
+
+body {
+  margin: 0 auto;
+  place-items: center;
+  max-width: 1920px;
+  font-family: 'Noto Sans', sans-serif;
+}
+

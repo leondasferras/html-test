@@ -1,0 +1,79 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 500px;
+  padding: 30px;
+  border: 1px solid #d3d8e4;
+}
+
+.cardImg {
+  min-width: 100%;
+  object-fit: fill;
+  max-height: 170px;
+  margin-bottom: 20px;
+}
+
+.cardAuthor {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cardAuthorColorDarkblue {
+  color: var(--dark-blue);
+}
+
+.cardAuthorColorLightblue {
+  color: var(--light-blue);
+}
+
+.cardTitle {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+  letter-spacing: 1.2000000476837158px;
+}
+
+.cardDescription {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.800000011920929px;
+  margin-bottom: 30px;
+}
+
+.cardBtn {
+  padding: 9px 35px 11px;
+  border: none;
+  color: white;
+}
+
+.cardBtnColorLightblue {
+  background: var(--light-blue);
+}
+
+.cardBtnColorDarkblue {
+  background: var(--dark-blue);
+}
+
+.cardCategoriesSticker {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  padding: 7px 15px;
+  color: white;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: center;
+}
+
+.cardCategoriesStickerColorlightblue {
+  background-color: var(--light-blue);
+}
+
+.cardCategoriesStickerColorDarkblue {
+  background-color: var(--dark-blue);
+}

@@ -1,0 +1,8 @@
+.cardSection {
+  margin:100px auto;
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(448px, 1fr));
+  grid-gap: 30px;
+}

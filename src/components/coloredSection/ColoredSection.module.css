@@ -1,0 +1,44 @@
+.coloredSection {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding-top: 126px;
+  padding-left: calc((100% - 1140px)/2);
+  padding-right: calc((100% - 1140px)/2);
+  box-sizing: border-box;
+  justify-content: space-between;
+  gap:125px
+}
+
+.coloredSectionTextSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.coloredSectionTitle {
+  color: var(--light-blue);
+  font-size: 62px;
+  line-height: 68px;
+  margin-bottom: 22px;
+  letter-spacing: 1.4px;
+}
+
+.coloredSectionDescription {
+  color: white;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  margin-bottom: 40px;
+}
+
+.coloredSectionImage {
+  width: 458px;
+  height: 380px;
+}
+
+.coloredSectionButtons{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
