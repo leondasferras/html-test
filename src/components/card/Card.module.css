@@ -11,7 +11,8 @@
 
 .cardImg {
   min-width: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: top left;
   max-height: 170px;
   margin-bottom: 20px;
 }

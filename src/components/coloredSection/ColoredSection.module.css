@@ -3,9 +3,8 @@
   background-color: black;
   display: flex;
   flex-direction: row;
-  padding-top: 126px;
-  padding-left: calc((100% - 1140px)/2);
-  padding-right: calc((100% - 1140px)/2);
+  padding: 126px calc((100% - 1140px)/2);
+  margin-bottom: 100px;
   box-sizing: border-box;
   justify-content: space-between;
   gap:125px
@@ -33,12 +32,17 @@
 }
 
 .coloredSectionImage {
-  width: 458px;
-  height: 380px;
+  background: url('../../assets/images/marian-kroell-2.jpg') no-repeat center;
+  object-fit: cover;
+  min-width: 458px;
+  max-height: 380px;
+  object-position: top left;
 }
+
 
 .coloredSectionButtons{
   display: flex;
   flex-direction: row;
   gap: 16px;
 }
+
