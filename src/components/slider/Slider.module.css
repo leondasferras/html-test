@@ -1,5 +1,22 @@
 .sliderSection {
-  margin: 0 auto 166px;
+  margin: 0 auto 80px ;;
   max-width: 1140px;
-  height: 900px;
+}
+
+.sliderNav {
+  display: flex;
+  gap: 25px;
+  margin-top: 40px;
+
+}
+
+.sliderNavBtn {
+  width: 13px;
+  height: 26px;
+  background: url('../../assets/images/slider-control.svg');
+  cursor: pointer;
+}
+
+.sliderNavBtnModeNext{
+  transform: rotate(180deg);
 }

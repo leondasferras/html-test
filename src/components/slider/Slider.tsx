@@ -1,6 +1,5 @@
 //@ts-nocheck
 import { register } from "swiper/element/bundle";
-
 import "swiper/css/bundle";
 import styles from "./Slider.module.css";
 import Card from "../card/Card";
@@ -9,15 +8,28 @@ import camera from "../../assets/images/marian-kroell-2.jpg";
 
 register();
 
+const breakpoints = 
+  {
+    1200: {
+      slidesPerView: 3,
+    },
+    576: {
+      slidesPerView: 2,
+    }
+  }
+
+
 const Slider = () => {
-
-
   return (
     <section className={styles.sliderSection}>
-      <swiper-container slides-per-view={3} space-between={50} navigation={true}
-               navigation-next-el=".next"
-               navigation-prev-el=".prev"
-               >
+      <swiper-container
+        slides-per-view={1}
+        space-between={32}
+        navigation={true}
+        navigation-next-el=".next"
+        navigation-prev-el=".prev"
+        breakpoints= {JSON.stringify(breakpoints)}
+      >
         <swiper-slide>
           <Card
             categories={["Category"]}
@@ -88,10 +100,13 @@ const Slider = () => {
             description="How can we help your technology and services business develop a revenue engine based"
           />
         </swiper-slide>
-
       </swiper-container>
-      <button className="prev">Prev</button>
-      <button className="next">Next</button>
+      <div className={styles.sliderNav}>
+        <div className={`prev ${styles.sliderNavBtn}`}></div>
+        <div
+          className={`next ${styles.sliderNavBtn} ${styles.sliderNavBtnModeNext}`}
+        ></div>
+      </div>
     </section>
   );
 };

@@ -18,7 +18,7 @@ const CardsSection = () => {
         categories={['Category','Marketing']}
         color="lightBlue"
         author="Adam Sandler"
-        title="Solutions for people like you like people"
+        title="Solutions for people "
         imgSrc={camera}
         description="How can we help your technology and services business develop a revenue engine based"
       />
@@ -34,9 +34,9 @@ const CardsSection = () => {
         categories={['Category','Marketing']}
         color="darkBlue"
         author="Adam Sandler"
-        title="Solutions for people like you like people"
+        title="Solutions for people "
         imgSrc={sakura}
-        description="How can we help your technology and services business develop a revenue engine based"
+        description="How can we help your technology "
       />
       <Card
         categories={['Category','Marketing']}
@@ -44,7 +44,7 @@ const CardsSection = () => {
         author="Adam Sandler"
         title="Solutions for people like you like people"
         imgSrc={sakura}
-        description="How can we help your technology and services business develop a revenue engine based"
+        description="H and services business develop a revenue engine based"
       />
       <Card
         categories={['Category','Marketing']}
@@ -52,7 +52,7 @@ const CardsSection = () => {
         author="Adam Sandler"
         title="Solutions for people like you like people"
         imgSrc={camera}
-        description="How can we help your technology and services business develop a revenue engine based"
+        description="How can we help your technology and services businessnology and services businessnology and services businessnology and services businessnology and services businessnology and services business develop a revenue engine based"
       />
 
     </section>

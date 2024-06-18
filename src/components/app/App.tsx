@@ -3,16 +3,17 @@ import Header from "../header/Header";
 import CardsSection from "../cards-section/CardsSection";
 import ColoredSection from "../coloredSection/ColoredSection";
 import Slider from "../slider/Slider";
+import Main from "../main/Main";
 
 function App() {
   return (
     <>
       <Header />
-      <main>
+      <Main>
         <CardsSection />
         <ColoredSection/>
         <Slider/>
-      </main>
+      </Main>
     </>
   );
 }

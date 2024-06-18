@@ -1,8 +1,13 @@
 .button {
-  padding: 9px 35px 11px;
+  padding: 10px 32px;
   border: none;
   color: white;
   box-sizing: border-box;
+  cursor: pointer;
+  width: 160px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.8px;
 }
 
 

@@ -1,25 +1,28 @@
 .coloredSection {
-  width: 100%;
   background-color: black;
   display: flex;
   flex-direction: row;
-  padding: 126px calc((100% - 1140px)/2);
+  padding: 100px 25px;
   margin-bottom: 100px;
   box-sizing: border-box;
-  justify-content: space-between;
-  gap:125px
+  justify-content: center;
+  gap:125px;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 
 .coloredSectionTextSection {
   display: flex;
   flex-direction: column;
+  margin-top: 26px;
+  max-width: 555px;
 }
 
 .coloredSectionTitle {
   color: var(--light-blue);
   font-size: 62px;
   line-height: 68px;
-  margin-bottom: 22px;
+  margin: 0;
   letter-spacing: 1.4px;
 }
 
