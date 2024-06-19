@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import Button from "../button/Button";
 import styles from "./Card.module.css";
-import LinesEllipsis from 'react-lines-ellipsis'
+import LinesEllipsis from "react-lines-ellipsis";
 
 type TCard = {
   color: "darkBlue" | "lightBlue";
@@ -12,7 +12,14 @@ type TCard = {
   description: string;
 };
 
-const Card: FC<TCard> = ({ color, author, title, imgSrc, description, categories }) => {
+const Card: FC<TCard> = ({
+  color,
+  author,
+  title,
+  imgSrc,
+  description,
+  categories,
+}) => {
   return (
     <div className={styles.card}>
       <div
@@ -22,7 +29,7 @@ const Card: FC<TCard> = ({ color, author, title, imgSrc, description, categories
             : styles.cardCategoriesStickerColorlightblue
         }`}
       >
-        {categories.join(' | ').toUpperCase()}
+        {categories.join(" | ").toUpperCase()}
       </div>
       <div className={styles.wrapper}>
         <img className={styles.cardImg} src={imgSrc} alt="image" />
@@ -36,9 +43,11 @@ const Card: FC<TCard> = ({ color, author, title, imgSrc, description, categories
           {author}
         </span>
         <h3 className={styles.cardTitle}>{title}</h3>
-        <p className={styles.cardDescription}><LinesEllipsis text={description} maxLine='3'/></p>
+        <div className={styles.cardDescription}>
+          <LinesEllipsis text={description} maxLine={(window.innerWidth <= 992 && window.innerWidth > 768) ? 2 : 3 } />
+        </div>
       </div>
-      <Button color={color} title="Call to action"/>
+      <Button color={color} title="Call to action" />
     </div>
   );
 };

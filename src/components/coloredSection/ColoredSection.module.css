@@ -6,7 +6,7 @@
   margin-bottom: 100px;
   box-sizing: border-box;
   justify-content: center;
-  gap:125px;
+  gap: 125px;
   margin-left: -25px;
   margin-right: -25px;
 }
@@ -37,8 +37,8 @@
 .coloredSectionImage {
   background: url('../../assets/images/marian-kroell-2.jpg') no-repeat center;
   object-fit: cover;
-  min-width: 458px;
-  max-height: 380px;
+  width: 458px;
+  height: 380px;
   object-position: top left;
 }
 
@@ -47,5 +47,92 @@
   display: flex;
   flex-direction: row;
   gap: 16px;
+  max-width: 333px;
 }
 
+@media screen and (max-width:1199px) {
+
+  .coloredSection {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .coloredSectionTextSection{
+    max-width: 455px;
+    margin-top: 23px;
+  }
+
+  .coloredSectionTitle {
+    font-size: 54px;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+  }
+
+  .coloredSectionDescription {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    margin-bottom: 29px;
+
+  }
+
+  .coloredSectionImage {
+    width: 455px;
+    height: 332px;
+  }
+
+  .coloredSectionButtons{
+    max-width: 316px;
+
+  }
+}
+
+@media screen and (max-width:991px) {
+  .coloredSection {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 47px 86px 68px;
+    margin-bottom: 58px;
+  }
+
+  .coloredSectionTextSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    max-width: 595px;
+  }
+
+  .coloredSectionButtons {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .coloredSectionTextSection{
+    max-width: 600px;
+    margin-top: 23px;
+  }
+
+  .coloredSectionTitle {
+    font-size: 46px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    max-width: 600px;
+    margin-bottom: 14px;
+  }
+
+  .coloredSectionDescription {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-top: 0;
+
+}
+  .coloredSectionImage {
+    width: 596px;
+    height: 368px;
+  }
+}

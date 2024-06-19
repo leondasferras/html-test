@@ -20,3 +20,15 @@
 .sliderNavBtnModeNext{
   transform: rotate(180deg);
 }
+
+
+@media screen and (max-width: 991px) {
+    .sliderNav {
+      margin-top: 31px;
+    }
+
+    .sliderSection {
+      margin-bottom: 60px;
+    }
+}
+

@@ -30,7 +30,7 @@ const CardsSection = () => {
         imgSrc={sakura}
         description="How can we help your technology and services business develop a revenue engine based"
       />
-      <Card
+      {/* <Card
         categories={['Category','Marketing']}
         color="darkBlue"
         author="Adam Sandler"
@@ -45,7 +45,7 @@ const CardsSection = () => {
         title="Solutions for people like you like people"
         imgSrc={sakura}
         description="H and services business develop a revenue engine based"
-      />
+      /> */}
       <Card
         categories={['Category','Marketing']}
         color="lightBlue"
