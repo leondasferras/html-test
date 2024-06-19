@@ -1,4 +1,3 @@
-import "./App.module.css";
 import Header from "../header/Header";
 import CardsSection from "../cards-section/CardsSection";
 import ColoredSection from "../coloredSection/ColoredSection";
