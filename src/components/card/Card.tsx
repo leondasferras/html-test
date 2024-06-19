@@ -44,7 +44,12 @@ const Card: FC<TCard> = ({
         </span>
         <h3 className={styles.cardTitle}>{title}</h3>
         <div className={styles.cardDescription}>
-          <LinesEllipsis text={description} maxLine={(window.innerWidth <= 992 && window.innerWidth > 768) ? 2 : 3 } />
+          <LinesEllipsis
+            text={description}
+            maxLine={
+              window.innerWidth <= 992 && window.innerWidth > 768 ? 2 : 3
+            }
+          />
         </div>
       </div>
       <Button color={color} title="Call to action" />
