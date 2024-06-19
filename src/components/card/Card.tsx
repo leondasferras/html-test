@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import { FC } from "react";
 import Button from "../button/Button";
 import styles from "./Card.module.css";
 import LinesEllipsis from "react-lines-ellipsis";

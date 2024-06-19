@@ -10,7 +10,7 @@ register();
 
 const breakpoints = 
   {
-    1200: {
+    1199: {
       slidesPerView: 3,
     },
     576: {
@@ -35,7 +35,7 @@ const Slider = () => {
             categories={["Category"]}
             color="lightBlue"
             author="Adam Sandler"
-            title="Solutions for people like you like people"
+            title="Solutions for people like people like you you like people"
             imgSrc={sakura}
             description="How can we help your technology and services business develop a revenue engine based"
           />
@@ -95,7 +95,7 @@ const Slider = () => {
             categories={["Category", "Marketing"]}
             color="lightBlue"
             author="Adam Sandler"
-            title="Solutions for people like you like people"
+            title="Solutions for people like you people like you people"
             imgSrc={sakura}
             description="How can we help your technology and services business develop a revenue engine based"
           />

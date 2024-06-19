@@ -10,8 +10,8 @@ const ColoredSection = () => {
       <h2 className={styles.coloredSectionTitle}> Solutions for people like you</h2>
       <p className={styles.coloredSectionDescription}> How can we help your technology and services business develop a revenue engine based on Hubspot?</p>
       <div className={styles.coloredSectionButtons}>
-        <Button color='lightBlue' title='Call to action'/>
-        <Button color='black' title='Call to action'/>
+        <Button color='lightBlue' title='Call to action' size={window.innerWidth < 576 ? 'xl' : ''}/>
+        <Button color='black' title='Call to action' size={window.innerWidth < 576 ? 'xl' : ''}/>
 
       </div>
     </div>

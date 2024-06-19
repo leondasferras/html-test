@@ -52,7 +52,7 @@
 .cardCategoriesSticker {
   position: absolute;
   top: 12px;
-  left: 0;
+  left: -1px;
   padding: 7px 15px;
   color: white;
   font-size: 13px;
@@ -73,27 +73,22 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1199px) {
   .cardTitle {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 1.2px;
   }
 
-
   .card {
-    height: 470px ;
+    height: 470px;
   }
-
 }
 
-@media screen and (max-width:992px) {
-
+@media screen and (max-width: 991px) {
   .card {
     height: 440px;
     padding: 28px;
-    ;
-    
   }
 
   .cardCategoriesSticker {
@@ -125,7 +120,25 @@
     max-height: 150px;
     margin-bottom: 13px;
   }
+}
 
+@media screen and (max-width: 767px) {
+  .cardCategoriesSticker {
+    top: -1px;
+  }
+
+  .card {
+    height: 448px;
+    padding: 16px;
+  }
+
+  .cardImg {
+    max-height: 140px;
+    margin-bottom: 7px;
+  }
 }
 
 
+@media screen and (max-width: 575px) {
+  
+}

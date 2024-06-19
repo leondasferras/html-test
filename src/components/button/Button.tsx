@@ -5,9 +5,10 @@ import styles from "./Button.module.css";
 type TButton = {
   color: string;
   title: string;
+  size?: string;
 };
 
-const Button: FC<TButton> = ({ color, title }) => {
+const Button: FC<TButton> = ({ color, title, size }) => {
   return (
     <button
       className={`${styles.button} ${
@@ -18,7 +19,9 @@ const Button: FC<TButton> = ({ color, title }) => {
           : color === "black"
           ? styles.btnColorBlack
           : null
-      }`}
+      }
+        ${size === 'xl' ? styles.button_xl : '' }
+      `}
     >
       {title}
     </button>

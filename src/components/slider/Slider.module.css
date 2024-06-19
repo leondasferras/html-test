@@ -7,13 +7,15 @@
   display: flex;
   gap: 25px;
   margin-top: 40px;
+  align-items: center;
 
 }
 
 .sliderNavBtn {
   width: 13px;
   height: 26px;
-  background: url('../../assets/images/slider-control.svg');
+  background: url('../../assets/images/slider-control.svg') ;
+  background-size: contain;
   cursor: pointer;
 }
 
@@ -28,7 +30,25 @@
     }
 
     .sliderSection {
-      margin-bottom: 60px;
+      margin-bottom: 36px;
     }
 }
 
+
+@media screen and (max-width: 767px) {
+  .sliderNav {
+    margin-top: 20px;
+    gap: 18px;
+  }
+
+  .sliderNavBtn {
+    width: 11px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sliderNav {
+    justify-content: center;
+}
+}

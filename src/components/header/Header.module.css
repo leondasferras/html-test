@@ -6,6 +6,7 @@
   color: white;
   min-height: 396px ;
   background: url('../../assets/images/marian-kroell.jpg') no-repeat left;
+  object-position: top left;;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -54,7 +55,7 @@
   .header {
     min-height: 276px;
     padding-top: 48px;
-    margin-bottom: 36px;
+    margin-bottom: 59px;
   }
 
   .header_title {
@@ -64,4 +65,25 @@
     max-width: 478px;
 
   }
+}
+
+@media screen and (max-width:767px) {
+  .header {
+    min-height: 236px;
+    padding-top: 29px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .header {
+    min-height: 274px;
+  }
+
+  .header_title {
+    font-size: 46px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    max-width: 300px;
+}
 }

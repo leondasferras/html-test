@@ -10,7 +10,7 @@ const CardsSection = () => {
         categories={['Category','Marketing']}
         color="lightBlue"
         author="Adam Sandler"
-        title="Solutions for people like you like people"
+        title="Solutions for people like you ike people"
         imgSrc={camera}
         description="How can we help your technology and services business develop a revenue engine based"
       />
@@ -50,9 +50,9 @@ const CardsSection = () => {
         categories={['Category','Marketing']}
         color="lightBlue"
         author="Adam Sandler"
-        title="Solutions for people like you like people"
+        title="Solutions for people like you like poplee like"
         imgSrc={camera}
-        description="How can we help your technology and services businessnology and services businessnology and services businessnology and services businessnology and services businessnology and services business develop a revenue engine based"
+        description="How can we help your technology and services businessnology and services businessnology anessnology and services businessnology and services businessnology and services businessnology and services businessnology and services business develop a revenue engine based"
       />
 
     </section>
