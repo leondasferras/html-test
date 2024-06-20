@@ -29,6 +29,7 @@ const CardsSection = () => {
         title="Solutions for people like you like people"
         imgSrc={sakura}
         description="How can we help your technology and services businessnologys businessnologys business"
+        />
       {/* <Card
         categories={['Category','Marketing']}
         color="darkBlue"
@@ -45,6 +46,7 @@ const CardsSection = () => {
         imgSrc={sakura}
         description="H and services business develop a revenue engine based"
       /> */}
+
       <Card
         categories={['Category','Marketing']}
         color="lightBlue"

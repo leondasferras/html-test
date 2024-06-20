@@ -2,6 +2,9 @@ import { FC } from "react";
 import Button from "../button/Button";
 import styles from "./Card.module.css";
 import LinesEllipsis from "react-lines-ellipsis";
+import responsiveHOC from 'react-lines-ellipsis/lib/responsiveHOC'
+
+const ResponsiveEllipsis = responsiveHOC()(LinesEllipsis)
 
 type TCard = {
   color: "darkBlue" | "lightBlue";
@@ -44,13 +47,13 @@ const Card: FC<TCard> = ({
         </span>
         <h3 className={styles.cardTitle}>{title}</h3>
         <div className={styles.cardDescription}>
-          <LinesEllipsis
+          <ResponsiveEllipsis
             text={description}
             maxLine={
-              window.innerWidth <= 992 && window.innerWidth > 768 ? 2 : 3
+              window.innerWidth >= 992 && window.innerWidth < 1199  ? 2 : 3
             }
-            trimRight
-            basedOn="letters"
+            ellipsis='...'
+            basedOn="words"
           />
         </div>
       </div>
