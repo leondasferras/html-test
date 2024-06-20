@@ -35,7 +35,7 @@ const Slider = () => {
             categories={["Category"]}
             color="lightBlue"
             author="Adam Sandler"
-            title="Solutions for people like people like you you like people"
+            title="Solutions for people like people "
             imgSrc={sakura}
             description="How can we help your technology and services business develop a revenue engine based"
           />
