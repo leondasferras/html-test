@@ -49,6 +49,8 @@ const Card: FC<TCard> = ({
             maxLine={
               window.innerWidth <= 992 && window.innerWidth > 768 ? 2 : 3
             }
+            trimRight
+            basedOn="letters"
           />
         </div>
       </div>
