@@ -28,8 +28,7 @@ const CardsSection = () => {
         author="Adam Sandler"
         title="Solutions for people like you like people"
         imgSrc={sakura}
-        description="How can we help your technology and services businessnologys businessnologys business develop a revenue engine based"
-      />
+        description="How can we help your technology and services businessnologys businessnologys business"
       {/* <Card
         categories={['Category','Marketing']}
         color="darkBlue"
